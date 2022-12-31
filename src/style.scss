@@ -253,7 +253,7 @@ border: 1px solid rgba(255, 255, 255, 0.97);
       }
 
       .messages {
-        background-color: #ddddf7;
+         background-color: #fef4ea;
         padding: 10px;
         height: calc(100% - 160px);
         overflow: scroll;
@@ -273,6 +273,7 @@ border: 1px solid rgba(255, 255, 255, 0.97);
               width: 40px;
               height: 40px;
               border-radius: 50%;
+               border: 3px solid  #f9a225;
               object-fit: cover;
             }
           }
@@ -285,6 +286,7 @@ border: 1px solid rgba(255, 255, 255, 0.97);
             p {
               background-color: white;
               padding: 10px 20px;
+              box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
               border-radius: 0px 10px 10px 10px;
               max-width: max-content;
             }
@@ -300,7 +302,7 @@ border: 1px solid rgba(255, 255, 255, 0.97);
             .messageContent {
               align-items: flex-end;
               p {
-                background-color: #8da4f1;
+                 background:linear-gradient(98.63deg, #f9a225 0%, #f95f35 100%);
                 color: white;
                 border-radius: 10px 0px 10px 10px;
               }
